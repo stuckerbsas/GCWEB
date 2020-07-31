@@ -1,0 +1,83 @@
+#site-navigation {
+  display: block;
+  height: 48px;
+  margin-right: 50px;
+}
+ 
+#site-navigation #main-menu,
+#site-navigation > input {
+  display: none;
+}
+ 
+#site-navigation > label {
+  display: block;
+  font-size: 36px;
+  color: #cccccc;
+  position: absolute;
+  right: 20px;
+  width: 36px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+ 
+#site-navigation > input:checked + #main-menu {
+  display: block;
+  clear: both;
+  top: 36px;
+  position: relative;
+  color: #cccccc;
+  left: -58px;
+  width: 100px;
+}
+ 
+#site-navigation ul li {
+  display: block;
+  padding: 12px 10px;
+  background-color: white;
+}
+ 
+#site-navigation a {
+  text-decoration: none;
+  color: rgba(61,61,61,0.69);;
+}
+#site-navigation a {
+  font-size: 20px;
+  position: relative;
+  top:40px;
+}
+@media only screen and (min-device-width: 768px) {
+  #site-navigation {
+    height: auto;
+    width: 600px;
+  }
+  #site-navigation #main-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  #site-navigation > label {
+    display: none
+  }
+  #site-navigation ul li {
+    display: inline-block;
+    color:rgba(61,61,61,0.69);
+  }
+}
+@media only screen and (max-device-width: 768px) {
+    #site-navigation a {
+        font-size: 30px;
+    }
+    #site-navigation ul li {
+        margin:-1px;
+        width:150px;
+    }
+    #site-navigation ul{
+        left:-100px !important;
+    }
+
+}

@@ -1,0 +1,263 @@
+.Encabezado{
+    width:100%;
+    height: 140px;
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0px;
+    background-color: white;
+    z-index: 100;
+}
+.Home{
+    background-image: url('../imagenes/working-from-home-health-ftr.jpg');
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Encabezado img{
+    height: 160px;
+}
+
+.Seccion{
+    width:100%;
+    height: auto;
+}
+
+
+.Icono:hover{
+    fill:blue;
+}
+
+.Products{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.Product{
+    width:400px;
+    height: auto;
+    display: flex;
+    
+    padding: 10px;
+    flex-direction: column;
+}
+.ProductTitulo{
+    padding:10px 20px;
+}
+
+
+
+@media only screen and (min-device-width: 768px) {
+    .Mobile{
+        display: none;
+    }
+    .Desktop{
+        display: block;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    .Mobile{
+        display: block;
+    }
+    .Desktop{
+        display: none;
+    }
+}
+
+.Titulo{
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+    font-family: "Open Sans", Sans-serif;
+}
+.Linea{
+    width:100%;
+    height: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.TeamTitulo{
+    color:#505050;
+    font-size: 35px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 700;
+    position: relative;
+    top:-10px;
+}
+.TeamSubTitulo{
+    position: relative;
+    top: 20px;
+    color:#8d8d8d;
+    font-size: 20px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 300;
+}
+.SubTitulo{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    font-family: "Open Sans", Sans-serif;
+}
+.Texto{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    font-family: "Open Sans", Sans-serif;
+}
+
+.MensajeCentral{
+    position: relative;
+    margin:auto;
+    top:45%;
+    width:350px;
+}
+
+.Expertos{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 30px;    
+}
+.Barra{
+    width:100%;
+    background-color: #fafafa;
+    height: 100px;
+    margin-top: 50px;
+}
+.BarraContainer{
+    width:95%;
+    margin:auto;
+    position: relative;
+    top:30px;
+}
+.TituloExperto{
+    font-weight: 700;
+    color:#3f3f3f;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 20px;
+}
+.SubTituloExperto{
+    color: #8d8d8d;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Open Sans", Sans-serif;
+}
+
+svg:hover {
+    stroke: red;
+  }
+
+  .TituloProduct{
+    font-weight: 700;
+    color:#3f3f3f;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 27px;
+
+}
+.ProductDiv{
+    width: 100%;
+    display:flex;
+}
+.Listado{
+    width: 400px;
+}
+
+.Listado li{
+    width:75%;
+    background: #fafafa;
+    padding: 10px;
+    margin: 10px 25px;
+    list-style: none;
+    color:#505050;
+}
+
+.SubTituloProduct{
+    font-weight: 400;
+    color:#8d8d8d;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 20px;
+
+}
+
+.shdividercontent:before ,.shdividercontent:after
+{
+    position:absolute;
+    top:30%;
+    overflow:hidden;
+    width:49%;
+    height:1px;
+    content:'';
+    border-top:1px solid #e2e2e2;
+    margin-top:0
+}
+.shdividercontent:before
+{
+    margin-left: -50%;
+    text-align: right;
+}
+.shdividercontent:after
+{
+    margin-left: 1%;
+    text-align: right;
+}
+.shdividertitle{
+    font-size: 14px;
+    font-family: "Open Sans", Sans-serif;
+    color:#8d8d8d;
+}
+.Achievements{
+    width: 100%;
+    background-color:#fafafa ;
+    height: auto;
+    padding-top: 10px;
+    margin-top: 30px;
+    min-height: 240px;
+}
+.shdivider{
+    margin:30px 0px 30px 0px;
+}
+.shdividercontent{
+    height: 45px;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+.Datodata{
+    color:#505050;
+    font-size: 40px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 700;
+}
+.DatoTitulo{
+    color:#505050;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.DatoSubTitulo{
+    color:#505050;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.DatoAbout{
+    width:240px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.DatosAbout{
+    display: flex;
+    justify-content: space-around;
+}

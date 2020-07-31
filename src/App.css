@@ -12,7 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+:target:before {
+  content:"";
+  display:block;
+  height:90px; /* fixed header height*/
+  margin:-90px 0 0; /* negative fixed header height */
+  }
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +40,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  transition-duration: 5s;
+}
+html {
+  scroll-behavior: smooth;
 }
