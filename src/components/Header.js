@@ -11,13 +11,14 @@ export default class Header extends PureComponent {
               
                 <nav id="site-navigation" aria-label="Menu">
  
-  <label for="toggle-mobile-menu" aria-label="Menu">&#9776;</label>
+  <label htmlFor ="toggle-mobile-menu" aria-label="Menu">&#9776;</label>
   <input id="toggle-mobile-menu" type="checkbox" />
  
   <ul id="main-menu">
     <li><a href="#Home">Home</a></li>
     <li><a href="#Team">Team</a></li>
     <li><a href="#Partners">Partners</a></li>
+    <li><a href="#Services">Our Services</a></li>
     <li><a href="#About">About</a></li>
     <li><a href="#Contact">Contact</a></li>
   </ul>

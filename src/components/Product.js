@@ -18,7 +18,7 @@ export default class Product extends PureComponent {
                         <ul className={styles.Listado}>
                             {
                                 this.props.data.map(dato=>
-                                    <li>{dato}</li>
+                                    <li key={dato}><a href={"/Products/" + dato.url}> {dato.title}</a></li>
                                     )
                             }
                            

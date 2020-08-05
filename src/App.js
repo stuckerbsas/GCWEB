@@ -1,23 +1,17 @@
 import React from 'react';
 
 import './App.css';
-import Cuerpo from './components/Cuerpo';
-import Header from './components/Header';
-import About from './components/About';
-import Team from './components/Team';
-import Partners from './components/Partners';
+import { BrowserRouter, Route } from "react-router-dom";
+import Principal from './components/Principal';
+import Ecommerce from './components/Ecommerce';
 
 function App() {
   return (
-    <div class="Fondo">
-      <Header></Header>
-      <div style={{width:"100%",height:"140px"}}></div>
-      <Cuerpo></Cuerpo>
-      <Team></Team>
-      <Partners></Partners>
-      <About></About>
-      
-      
+    <div>
+      <BrowserRouter>
+      <Route exact path="/" component={Principal}/>
+      <Route exact path="/Products/:id" component={Ecommerce}/>
+      </BrowserRouter>
     </div>
   );
 }

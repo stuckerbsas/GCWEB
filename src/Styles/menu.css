@@ -14,7 +14,8 @@
   font-size: 36px;
   color: #cccccc;
   position: absolute;
-  right: 20px;
+  right: 40px;
+  top:40px;
   width: 36px;
   padding: 0;
   cursor: pointer;
@@ -78,6 +79,10 @@
     }
     #site-navigation ul{
         left:-100px !important;
+    }
+    #site-navigation > input:checked + #main-menu
+    {
+      top:100px !important;
     }
 
 }

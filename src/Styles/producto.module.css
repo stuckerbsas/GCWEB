@@ -1,0 +1,35 @@
+.Titulo{
+    width: 88%;
+    margin:auto;
+    height: auto;
+    min-height: 400px;
+    position: relative;
+    background-color: aliceblue;
+    max-width: 2048px;
+    margin-top: 20px;
+}
+
+.CTitulo{
+    position: absolute;
+    top:100px;
+    left:-20px;
+    height: 250px;
+    width:400px;
+    background-color: white;
+}
+
+.STitulo{
+    font-weight: 700;
+    color:#3f3f3f;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 27px;
+    border-left: 3px solid #0039c6;
+    padding: 10px 20px;
+}
+.PTitulo{
+    font-weight: 400;
+    color:#3f3f3f;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+}

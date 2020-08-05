@@ -4,7 +4,7 @@ import Manager01 from '../imagenes/Manager01.png'
 import Manager02 from '../imagenes/Manager02.png'
 import Manager03 from '../imagenes/Manager03.png'
 import Manager04 from '../imagenes/Manager04.png'
-import linkedin from '../imagenes/in.png'
+import linkedin from '../imagenes/linkedin.png'
 
 
 
@@ -30,7 +30,7 @@ export default class Team extends PureComponent {
                             <span className={Styles.SubTituloExperto}>
                                 Institutional Relationship Director
                             </span><br/>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/danielahansen/"><img height="14" src={linkedin} alt="linkeding"></img></a>
+                            <a target="_blank" style={{position:"relative",top:"10px"}} rel="noopener noreferrer" href="https://www.linkedin.com/in/danielahansen/"><img height="20" src={linkedin} alt="linkeding"></img></a>
                         </div>
                     </div>
                     <div className={Styles.Experto}>
@@ -44,7 +44,7 @@ export default class Team extends PureComponent {
                             <span className={Styles.SubTituloExperto}>
                                 Comercial Director
                             </span><br/>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marianoriccio/"><img height="14" src={linkedin} alt="linkeding"></img></a>
+                            <a target="_blank" style={{position:"relative",top:"10px"}} rel="noopener noreferrer" href="https://www.linkedin.com/in/marianoriccio/"><img height="20" src={linkedin} alt="linkeding"></img></a>
                         </div>
                     </div>
                     <div className={Styles.Experto}>
@@ -58,7 +58,7 @@ export default class Team extends PureComponent {
                             <span className={Styles.SubTituloExperto}>
                                 Operation Director
                             </span><br/>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rodrigobiazzo/"><img height="14" src={linkedin} alt="linkeding"></img></a>
+                            <a target="_blank" style={{position:"relative",top:"10px"}} rel="noopener noreferrer" href="https://www.linkedin.com/in/rodrigobiazzo/"><img height="20" src={linkedin} alt="linkeding"></img></a>
                         </div>
                     </div>
                     <div className={Styles.Experto}>
@@ -72,7 +72,7 @@ export default class Team extends PureComponent {
                             <span className={Styles.SubTituloExperto}>
                                 Financial Director
                             </span><br/>
-                                <a target="_blank" rel="noopener noreferrer" className={Styles.AExperto} href="https://www.linkedin.com/in/fernando-gauchat/"><img height="14" src={linkedin} alt="linkeding"></img></a>
+                                <a target="_blank" style={{position:"relative",top:"10px"}} rel="noopener noreferrer" className={Styles.AExperto} href="https://www.linkedin.com/in/fernando-gauchat/"><img height="20" src={linkedin} alt="linkeding"></img></a>
                         </div>
                     </div>
                 </div>

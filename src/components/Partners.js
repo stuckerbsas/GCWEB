@@ -37,7 +37,13 @@ export default class Partners extends PureComponent {
           };
         return (
             <div id="Partners" className={Styles.Seccion}>
+              
                 <div className={Styles.Barra}>
+                <div className={Styles.shdivider}>
+                        <div className={Styles.shdividercontent}>
+                            <span className={Styles.shdividertitle}>				Partners			</span>
+                        </div>
+                    </div>
                     <div className={Styles.BarraContainer}>
                 <AliceCarousel
        duration={500}
@@ -52,8 +58,7 @@ export default class Partners extends PureComponent {
        autoPlayInterval={2000}
        autoPlayDirection="rtl"
        autoPlayActionDisabled={true}
-       onSlideChange={this.onSlideChange}
-       onSlideChanged={this.onSlideChanged}
+
       >
                     <img src={Partner01} alt="AutoDesk" height="40"></img>
                     <img src={Partner02} alt="AutoDesk" height="40"></img>

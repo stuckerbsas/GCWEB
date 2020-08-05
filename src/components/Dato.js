@@ -8,7 +8,7 @@ export default class Dato extends PureComponent {
                 <div>
                     <span className={styles.Datodata}>{this.props.data}</span>
                 </div>
-                <div>
+                <div className={styles.DatoDiv} style={this.props.arreglo} >
                     <span className={styles.DatoTitulo}>{this.props.Titulo}</span><br/>
                     <span className={styles.DatoSubtitulo}>{this.props.SubTitulo}</span><br/>
                 </div>
